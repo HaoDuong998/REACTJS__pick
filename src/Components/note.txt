@@ -1,0 +1,7 @@
+Yêu cầu bài tập:
+1. Thực hành lại props kết hợp state, setState đã học.
+
+*Các bước cần làm:
+1. Về layoyt: Chia màn hình ra làm 2:
++ một bên là Col-8 sẽ hiển thị list giày
++ Một bên là Col-4 sẽ hiển thị giao diện thông tin chi tiết giày
