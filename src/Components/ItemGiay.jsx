@@ -11,7 +11,7 @@ export default class ItemGiay extends Component {
         <p>{price}</p>
         <button onClick={()=>{
           this.props.clickXemGiay(this.props.giay);
-        }} className="btn btn dark">Thông tin chi tiết</button>
+        }} className="btn btn-success">Thông tin chi tiết</button>
       </>
     );
   }

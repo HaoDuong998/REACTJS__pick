@@ -160,6 +160,7 @@ export default class HienThiGiay extends Component {
   render() {
     return  <div>
                 <h1>Pick Shoes</h1>
+                <div className="container">
                 <div className="row">
                     {/* Col-8 sẽ hiển thị list giày */}
                     <div className="col-8">
@@ -176,6 +177,7 @@ export default class HienThiGiay extends Component {
                     <div className="col-4">
                         <DetailGiay detailGiay={this.state.giay} />
                     </div>
+                </div>
                 </div>
             </div>;
   }
